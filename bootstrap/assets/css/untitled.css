@@ -58,3 +58,8 @@ div {
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
 
+
+.topbar .nav-item .nav-link {
+    font-size: medium;
+}
+

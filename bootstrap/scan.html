@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Untitled</title>
+    <title>Scan QR Code</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&amp;display=swap">
     <link rel="stylesheet" href="assets/css/swiper-icons.css">
@@ -16,23 +16,28 @@
 </head>
 
 <body style="padding-top: 65px !important; padding-bottom: 65px !important; height: 100% !important; margin-bottom: 0px; padding-bottom: 0px;">
+    
+    
+    <!------------------------->
+    <!-- start of top navbar -->
+    <!------------------------->
     <nav class="navbar navbar-expand bg-white shadow mb-4 topbar static-top navbar-light" style="margin: 0;">
         <div class="container-fluid">
             <h6 style="margin-bottom: 4px;margin-top: 4px;color: rgb(255,255,255);padding-right: 5px;">PlastiShare</h6>
             <ul class="navbar-nav flex-nowrap ms-auto" style="margin-left: 0px;">
-                <li class="nav-item dropdown d-sm-none no-arrow"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#" style="padding: 0px 5px;"><i class="fas fa-search"></i></a>
+                <li class="nav-item dropdown d-sm-none no-arrow"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#" style="padding: 0px 10px;"><i class="fas fa-search"></i></a>
                     <div class="dropdown-menu dropdown-menu-end p-3 animated--grow-in" aria-labelledby="searchDropdown">
                         <form class="me-auto navbar-search w-100">
-                            <div class="input-group"><input class="bg-light form-control border-0 small" type="text" placeholder="Search for ...">
-                                <div class="input-group-append"><button class="btn btn-primary py-0" type="button"><i class="fas fa-search"></i></button></div>
+                            <div class="input-group"><input style="margin-right: 10px;" class="bg-light form-control border-0 small" type="text" placeholder="Search for ...">
+                                <div class="input-group-append"><button style="background-color: #488a6b;" class= "btn btn-primary py-0" type="button"><i class="fas fa-search"></i></button></div>
                             </div>
                         </form>
                     </div>
                 </li>
                 <li class="nav-item dropdown no-arrow mx-1">
-                    <div class="nav-item dropdown show no-arrow"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#" style="padding: 5px;"><span class="badge bg-danger badge-counter">7</span><i class="fas fa-envelope fa-fw"></i></a>
+                    <div class="nav-item dropdown show no-arrow"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#" style="padding: 10px;"><span class="badge bg-danger badge-counter">7</span><i class="fas fa-envelope fa-fw"></i></a>
                         <div class="dropdown-menu dropdown-menu-end dropdown-list animated--grow-in" style="font-size: 0.8rem;">
-                            <h6 class="dropdown-header" style="background-color:darkcyan">notification center</h6><a class="dropdown-item d-flex align-items-center" href="#">
+                            <h6 class="dropdown-header" style="background-color:#488a6b">notification center</h6><a class="dropdown-item d-flex align-items-center" href="#">
                                 <div class="dropdown-list-image me-3"><img class="rounded-circle" src="assets/img/avatars/avatar4.jpeg">
                                     <div class="bg-success status-indicator"></div>
                                 </div>
@@ -41,7 +46,7 @@
                                     <p class="small text-gray-500 mb-0">Charmaine - 58m</p>
                                 </div>
                             </a><a class="dropdown-item d-flex align-items-center" href="#">
-                                <div class="dropdown-list-image me-3"><img class="rounded-circle" src="assets/img/avatars/avatar2.jpeg">
+                                <div class="dropdown-list-image me-3"><img class="rounded-circle" src="images/person_1.jpg">
                                     <div class="status-indicator"></div>
                                 </div>
                                 <div class="fw-bold">
@@ -49,20 +54,20 @@
                                     <p class="small text-gray-500 mb-0">Kaiyang - 1d</p>
                                 </div>
                             </a><a class="dropdown-item d-flex align-items-center" href="#">
-                                <div class="dropdown-list-image me-3"><img class="rounded-circle" src="assets/img/avatars/avatar3.jpeg">
+                                <div class="dropdown-list-image me-3"><img class="rounded-circle" src="images/person_4.jpg">
                                     <div class="bg-warning status-indicator"></div>
                                 </div>
                                 <div class="fw-bold">
-                                    <div class="text-truncate" ><span>Left a review: Amazing planter!</span></div>
+                                    <div class="text-truncate" ><span>Replied: Amazing idea!</span></div>
                                     <p class="small text-gray-500 mb-0">Nicholas - 2d</p>
                                 </div>
                             </a><a class="dropdown-item d-flex align-items-center" href="#">
-                                <div class="dropdown-list-image me-3"><img class="rounded-circle" src="assets/img/avatars/avatar5.jpeg">
+                                <div class="dropdown-list-image me-3"><img class="rounded-circle" src="images/person_3.jpg">
                                     <div class="bg-success status-indicator"></div>
                                 </div>
                                 <div class="fw-bold">
                                     <div class="text-truncate"><span>Posted an article: How to make a piggy bank from recycled plastic bottles</span></div>
-                                    <p class="small text-gray-500 mb-0">Riz · 2w</p>
+                                    <p class="small text-gray-500 mb-0">Hariz · 2w</p>
                                 </div>
                             </a><a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
                         </div>
@@ -73,47 +78,78 @@
                 <li class="nav-item dropdown no-arrow">
                     <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#" style="margin-right: 0px;padding: 0px 5px 0px 5px;padding-right: 0px;"><span style="color:white !important;" class="d-none d-lg-inline me-2 text-gray-600 small">Diamond</span><img class="border rounded-circle img-profile" src="assets/img/avatars/favicon.png"></a>
                         <div class="dropdown-menu shadow dropdown-menu-end animated--grow-in"><a class="dropdown-item" href="#"><i class="fas fa-user fa-sm fa-fw me-2 text-gray-400"></i>&nbsp;Profile</a><a class="dropdown-item" href="#"><i class="fas fa-cogs fa-sm fa-fw me-2 text-gray-400"></i>&nbsp;Settings</a><a class="dropdown-item" href="#"><i class="fas fa-shopping-cart fa-sm fa-fw me-2 text-gray-400"></i>&nbsp;Cart</a>
-                            <div class="dropdown-divider"></div><a class="dropdown-item" href="#"><i class="fas fa-sign-out-alt fa-sm fa-fw me-2 text-gray-400"></i>&nbsp;Logout</a>
+                            <div class="dropdown-divider"></div><a class="dropdown-item" href="login.html"><i class="fas fa-sign-out-alt fa-sm fa-fw me-2 text-gray-400"></i>&nbsp;Logout</a>
                         </div>
                     </div>
                 </li>
             </ul>
         </div>
     </nav>
-    <button id="capture">Capture</button>
-    <div id="enhancerUIContainer" style="height: 100vh;"></div>
-    <script>
-        let enhancer = null;
-        (async () => {
-            enhancer = await Dynamsoft.DCE.CameraEnhancer.createInstance();
-            document.getElementById("enhancerUIContainer").appendChild(enhancer.getUIElement());
-            await enhancer.open(true);
-        })();
-
-        document.getElementById('capture').onclick = () => {
-            if (enhancer) {
-                let frame = enhancer.getFrame();
-            
-                let width = screen.availWidth;
-                let height = screen.availHeight;
-                let popW = 640, popH = 640;
-                let left = (width - popW) / 2;
-                let top = (height - popH) / 2;
-
-                popWindow = window.open('', 'popup', 'width=' + popW + ',height=' + popH +
-                    ',top=' + top + ',left=' + left + ', scrollbars=yes');
-
-                popWindow.document.body.appendChild(frame.canvas);
+    <!----------------------->
+    <!-- end of top navbar -->
+    <!----------------------->
+    
+    
+    <!--------------------------->
+    <!-- start of body content -->
+    <!--------------------------->
+    <div style="height: 100%">    
+        <script src="https://unpkg.com/dynamsoft-camera-enhancer@2.1.0/dist/dce.js"></script>
+        <style>
+            #enhancerUIContainer select {
+            display: none;
             }
-        };
-    </script>
+            #enhancerUIContainer button {
+                display: none;
+            }
+        </style>
+        <div id="enhancerUIContainer" style="height: 100%;"></div>
+        <script>
+            let enhancer = null;
+            (async () => {
+                enhancer = await Dynamsoft.DCE.CameraEnhancer.createInstance();
+                document.getElementById("enhancerUIContainer").appendChild(enhancer.getUIElement());
+                await enhancer.open(true);
+            })();
+
+            document.getElementById('capture').onclick = () => {
+                if (enhancer) {
+                    let frame = enhancer.getFrame();
+
+                    let width = screen.availWidth;
+                    let height = screen.availHeight;
+                    let popW = 640, popH = 640;
+                    let left = (width - popW) / 2;
+                    let top = (height - popH) / 2;
+
+                    popWindow = window.open('', 'popup', 'width=' + popW + ',height=' + popH +
+                        ',top=' + top + ',left=' + left + ', scrollbars=yes');
+
+                    popWindow.document.body.appendChild(frame.canvas);
+                }
+            };
+        </script>
+    </div>
+    <!------------------------->
+    <!-- end of body content -->
+    <!------------------------->
+    
+    
+    <!---------------------------->
+    <!-- start of bottom navbar -->
+    <!---------------------------->
     <ul class="nav nav-fill fixed-bottom d-lg-none pt-2" id="mobile-bottom-navbar" style="border-top: 1px solid rgb(206,212,218);">
-        <li class="nav-item"><a class="nav-link active text-capitalize d-flex flex-column justify-content-center align-items-center" href="home.html" style="margin-right: 0px;padding-right: 5px;padding-left: 5px;"><i class="fas fa-home fa-fw fa-lg"></i><span class="small">Home</span></a></li>
-        <li class="nav-item"><a class="nav-link text-capitalize d-flex flex-column justify-content-center align-items-center" href="locate.html" style="padding: 8px 5px 8px 5px;padding-left: 5px;"><i class="fas fa-map-marked-alt fa-fw fa-lg"></i><span class="small">Locate</span></a></li>
-        <li class="nav-item"><a class="nav-link text-capitalize d-flex flex-column justify-content-center align-items-center" href="scan.html" style="padding: 8px 5px;"><i class="fas fa-qrcode fa-fw fa-lg"></i><span class="small">Scan</span></a></li>
-        <li class="nav-item"><a class="nav-link text-capitalize d-flex flex-column justify-content-center align-items-center" href="rewards.html" style="padding: 8px 5px;"><i class="fas fa-gift fa-fw fa-lg"></i><span class="small">Rewards</span></a></li>
-        <li class="nav-item"><a class="nav-link text-capitalize d-flex flex-column justify-content-center align-items-center" href="shop.html" style="padding: 8px 5px;"><i class="fas fa-shopping-bag fa-fw fa-lg"></i><span class="small">Shop</span></a></li>
+        <li class="nav-item"><a class="nav-link active text-capitalize d-flex flex-column justify-content-center align-items-center" href="home.html" style="padding: 8px 5px;"><i class="fas fa-home fa-fw fa-lg"></i><span class="medium">Home</span></a></li>
+        <li class="nav-item"><a class="nav-link text-capitalize d-flex flex-column justify-content-center align-items-center" href="locate.html" style="padding: 8px 5px;"><i class="fas fa-map-marked-alt fa-fw fa-lg"></i><span class="medium">Locate</span></a></li>
+        <li class="nav-item"><a class="nav-link text-capitalize d-flex flex-column justify-content-center align-items-center" href="scan.html" style="padding: 8px 5px;"><i class="fas fa-qrcode fa-fw fa-lg"></i><span class="medium">Scan</span></a></li>
+        <li class="nav-item"><a class="nav-link text-capitalize d-flex flex-column justify-content-center align-items-center" href="rewards.html" style="padding: 8px 5px;"><i class="fas fa-gift fa-fw fa-lg"></i><span class="medium">Rewards</span></a></li>
+        <li class="nav-item"><a class="nav-link text-capitalize d-flex flex-column justify-content-center align-items-center" href="shop.html" style="padding: 8px 5px;"><i class="fas fa-shopping-bag fa-fw fa-lg"></i><span class="medium">Shop</span></a></li>
     </ul>
+    <!-------------------------->
+    <!-- end of bottom navbar -->
+    <!-------------------------->
+    
+    
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
     <script src="assets/js/Swiper-Card-Blog-swiper-bundle.min.js"></script>

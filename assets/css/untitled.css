@@ -63,3 +63,8 @@ div {
     font-size: medium;
 }
 
+@media (max-width: 922px) {
+    .comp-disappear {
+        display: none;
+    }
+}
